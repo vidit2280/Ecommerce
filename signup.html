@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Shop Online</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/455d39c75f.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="title">
+    <div class="jumbotron text-center">
+      <h1 class="title">Shop Online</h1>
+      <p>Buy Your Every Needs Here</p>
+    </div>
+  </section>
+
+  <section id="navigation-bar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-grey">
+        <a class="navbar-brand" href="">Shop Online</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" active>
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accessories.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shoes.html">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clothes.html">Clothes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="smartphones.html">SmartPhones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html"><i class="fas fa-user-plus"></i> Signup</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section><br><br><br>
+  <section id="login">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card card-signin my-5">
+            <div class="card-body">
+              <h1 class="card-title text-center">Sign Up</h1>
+              <form class="form-signin">
+
+                <div class="form-label-group">
+                  <input type="text" class="form-control" placeholder="Your Name" required autofocus>
+                  <label>Name</label>
+                </div>
+
+                <div class="form-label-group">
+                  <input type="email" id="inpuEmail" class="form-control" placeholder="Email address" required>
+                  <label for="inputEmail">Email address</label>
+                </div>
+
+                <div class="form-label-group">
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <label for="inputPassword">Password</label>
+                </div>
+                <div class="form-label-group">
+                  <input type="password" class="form-control" placeholder="Confirm Password" required>
+                  <label>Confirm Password</label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Remember password</label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
+                <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <small class="form-text text-muted">A confirmation mail would be sent to your email for confirmation.</small>
+                <small class="form-text text-muted">Happy Shopping!!!.</small>
+                <hr class="my-4">
+                <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
+                <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
